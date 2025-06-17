@@ -40,7 +40,11 @@ This repository includes a three-part NLP-based solution for processing and clas
 ---
 
 ### 3. **NER_integration.ipynb**
-- **Purpose**: Extracts named entities like dates, times, and customer-related details and loads the model to gice final output.
+- **Purpose**: Extracts named entities like dates, times, and customer-related details and loads the model to gice final output   
+              with gradio interface which gives output
+
+![alt text](image.png)
+
 - **Model/Approach**:
   - Rule-based using regex and pattern matching.
   - Example use cases: Extracting dates, IDs, user names from ticket text.
@@ -63,4 +67,8 @@ cd <repo_directory>
 pip install -r requirements.txt
 
 2. Run Notebooks
-You can open and run the notebooks using Jupyter:
+You can open and run the notebooks in order:
+
+  a. issue_model.ipynb
+  b. Urgency_Binary_Classifier.ipynb
+  c. NER_integration.ipynb

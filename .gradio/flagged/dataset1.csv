@@ -1,0 +1,2 @@
+text,output,timestamp
+my smartwatch is nott working since 15th june ,"{""issue_type"": ""Product Defect"", ""urgency_level"": ""Not High"", ""entities"": {""products"": [""smartwatch v2""], ""dates"": [""2025-06-15""], ""issues"": []}}",2025-06-17 11:44:31.007740
